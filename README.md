@@ -7,7 +7,7 @@ Tuesday November 19, 2019 & Thursday November 21, 2019
 Instructor(s): Danielle Kane
 Helper(s): Shu Liu
 
-<b><a href="https://www.eventbrite.com/e/uci-libraries-programming-with-python-tickets-71081469589">REGISTER HERE</a></b>
+<b><a href="https://www.eventbrite.com/e/uci-libraries-programming-with-r-tickets-71086127521">REGISTER HERE</a></b>
 
 Please Note: You must be a UCI affiliate to register, please contact kaned@uci.edu if you are not a member of the UCI community to see if there is room before registering
 
@@ -17,7 +17,7 @@ Please Note: You must be a UCI affiliate to register, please contact kaned@uci.e
 
 **Where:** Langson Library Rm 228. Get directions with <a href="https://www.openstreetmap.org/#map=17/33.64745/-117.83871">OpenStreetMap</a> or <a href="https://goo.gl/maps/528F8BGTYvJ2">Google Maps</a>.
 
-**When:** November 19, 2019 & November 21, 2019. <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWlvb3VjcDdjYzJxaGc4aHZlcm5zbjByZXZfMjAxOTExMTJUMjEwMDAwWiBrYW5lZEB1Y2kuZWR1&tmsrc=kaned%40uci.edu&scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif">Add to your Google Calendar</a>.
+**When:** November 19, 2019 & November 21, 2019. <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MW5saDdvN2s4aXVxZGxqaXEyNjVtMTBybG9fMjAxOTExMTlUMjIwMDAwWiBrYW5lZEB1Y2kuZWR1&tmsrc=kaned%40uci.edu&scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif">Add to your Google Calendar</a>.
 
 **Requirements:** Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed below). 
 
@@ -73,9 +73,6 @@ Linux: The default shell is usually Bash, but if your machine is set up differen
 
 **R**
 
-<div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
-  <h3>R</h3>
-
   <p>
     <a href="https://www.r-project.org">R</a> is a programming language
     that is especially powerful for data exploration, visualization, and
@@ -122,5 +119,3 @@ Linux: The default shell is usually Bash, but if your machine is set up differen
       </p>
     </div>
   </div>
-</div> {% comment %} End of 'R' section. {% endcomment %}
-
