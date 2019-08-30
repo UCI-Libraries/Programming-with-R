@@ -1,8 +1,8 @@
 UCI Libraries Digital Scholarship Services
 
-Tuesday November 12, 2019 & Thursday November 14, 2019
+Tuesday November 19, 2019 & Thursday November 21, 2019
 
-1:00 PM - 5:00 PM
+2:00 PM - 5:00 PM
 
 Instructor(s): Danielle Kane
 Helper(s): Shu Liu
@@ -11,13 +11,13 @@ Helper(s): Shu Liu
 
 Please Note: You must be a UCI affiliate to register, please contact kaned@uci.edu if you are not a member of the UCI community to see if there is room before registering
 
-**General Information:** Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python has a design philosophy that emphasizes code readability, notably using significant whitespace. It provides constructs that enable clear programming on both small and large scales.  The best way to learn how to program is to do something useful, so this introduction to Python is built around a common scientific task: data analysis.
+**General Information:** R is a programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data miners for developing statistical software and data analysis.
 
 **Who:** The course is aimed at graduate students and other researchers, including undergrads, faculty, staff and community members. <b>You don't need to have any previous knowledge of the tools that will be presented at the workshop.</b> 
 
 **Where:** Langson Library Rm 228. Get directions with <a href="https://www.openstreetmap.org/#map=17/33.64745/-117.83871">OpenStreetMap</a> or <a href="https://goo.gl/maps/528F8BGTYvJ2">Google Maps</a>.
 
-**When:** November 12, 2019 & November 14, 2019. <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWlvb3VjcDdjYzJxaGc4aHZlcm5zbjByZXZfMjAxOTExMTJUMjEwMDAwWiBrYW5lZEB1Y2kuZWR1&tmsrc=kaned%40uci.edu&scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif">Add to your Google Calendar</a>.
+**When:** November 19, 2019 & November 21, 2019. <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWlvb3VjcDdjYzJxaGc4aHZlcm5zbjByZXZfMjAxOTExMTJUMjEwMDAwWiBrYW5lZEB1Y2kuZWR1&tmsrc=kaned%40uci.edu&scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif">Add to your Google Calendar</a>.
 
 **Requirements:** Participants must bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed below). 
 
@@ -30,15 +30,13 @@ Materials will be provided in at the workshop and large-print handouts are avail
 
 **Contact:** Please email Danielle Kane at kaned@uci.edu for more information.
 
-Syllabus: Programming with Python
+Syllabus: Programming with R
 
-1. Using libraries
-2. Working with arrays
-3. Reading and plotting data
-4. Creating and using functions
-5. Loops and conditionals
-6. Defensive programming
-U7. sing Python from the command line
+1. Working with vectors and data frames
+2. Reading and plotting data
+3. Creating and using functions
+4. Loops and conditionals
+5. Using R from the command line
  
 **Setup**
 
@@ -73,47 +71,56 @@ Mac OS X: The default shell in all versions of Mac OS X is Bash, so no need to i
 
 Linux: The default shell is usually Bash, but if your machine is set up differently you can run it by opening a terminal and typing bash. There is no need to install anything.
 
+**R**
 
-**Python**
+<div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
+  <h3>R</h3>
 
-Python is a popular language for research computing, and great for general-purpose programming as well. Installing all of its research packages individually can be a bit difficult, so we recommend Anaconda, an all-in-one installer.
+  <p>
+    <a href="https://www.r-project.org">R</a> is a programming language
+    that is especially powerful for data exploration, visualization, and
+    statistical analysis. To interact with R, we use
+    <a href="https://www.rstudio.com/">RStudio</a>.
+  </p>
 
-<p>
-  Regardless of how you choose to install it,
-  <strong>please make sure you install Python version 3.x</strong>
-  (e.g., 3.6 is fine).
-</p>
+  <div class="row">
+    <div class="col-md-4">
+      <h4 id="r-windows">Windows</h4>
+      <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
+      <p>
+        Install R by downloading and running
+        <a href="https://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
+        from <a href="https://cran.r-project.org/index.html">CRAN</a>.
+        Also, please install the
+        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+        Note that if you have separate user and admin accounts, you should run the 
+        installers as administrator (right-click on .exe file and select "Run as 
+        administrator" instead of double-clicking). Otherwise problems may occur later, 
+        for example when installing R packages.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="r-macosx">macOS</h4>
+      <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
+      <p>
+        Install R by downloading and running
+        <a href="https://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
+        from <a href="https://cran.r-project.org/index.html">CRAN</a>.
+        Also, please install the
+        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="r-linux">Linux</h4>
+      <p>
+        You can download the binary files for your distribution
+        from <a href="https://cran.r-project.org/index.html">CRAN</a>. Or
+        you can use your package manager (e.g. for Debian/Ubuntu
+        run <code>sudo apt-get install r-base</code> and for Fedora run
+        <code>sudo dnf install R</code>).  Also, please install the
+        <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
+      </p>
+    </div>
+  </div>
+</div> {% comment %} End of 'R' section. {% endcomment %}
 
-<p>
-  We will teach Python using the <a href="https://jupyter.org/">Jupyter notebook</a>,
-  a programming environment that runs in a web browser. For this to work you will need a reasonably
-  up-to-date browser. The current versions of the Chrome, Safari and
-  Firefox browsers are all
-  <a href="https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility">supported</a>
-  (some older browsers, including Internet Explorer version 9
-  and below, are not).
-</p>
-
-Windows
-Video Tutorial: https://www.youtube.com/watch?v=xxQ0mzZ8UvA
-
-    1. Open https://www.anaconda.com/download/#windows with your web browser.
-    2. Download the Python 3 installer for Windows.
-    3. Install Python 3 using all of the defaults for installation except make sure to check Make Anaconda the default Python.
-
-macOS
-Video Tutorial: https://www.youtube.com/watch?v=TcSAln46u9U
-
-    1. Open https://www.anaconda.com/download/#macos with your web browser.
-    2. Download the Python 3 installer for OS X.
-    3. Install Python 3 using all of the defaults for installation.
-
-Linux
-
-    1. Open https://www.anaconda.com/download/#linux with your web browser.
-    2. Download the Python 3 installer for Linux.
-    (The installation requires using the shell. If you aren't comfortable doing the installation yourself stop here and request help at the workshop.)
-    3. Open a terminal window.
-    4. Type: bash Anaconda3-and then press tab. The name of the file you just downloaded should appear. If it does not, navigate to the folder where you downloaded the file, for example with: cd Downloads. Then, try again.
-    5. Press enter. You will follow the text-only prompts. To move through the text, press the space key. Type yes and press enter to approve the license. Press enter to approve the default location for the files. Type yes and press enter to prepend Anaconda to your PATH (this makes the Anaconda distribution the default Python).
-    6. Close the terminal window.
