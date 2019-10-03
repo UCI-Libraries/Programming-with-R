@@ -5,7 +5,7 @@ Tuesday November 19, 2019 & Thursday November 21, 2019
 2:00 PM - 5:00 PM
 
 Instructor(s): Danielle Kane
-Helper(s): Shu Liu
+Helper(s): Mitchell Brown
 
 <b><a href="https://www.eventbrite.com/e/uci-libraries-programming-with-r-tickets-71086127521">REGISTER HERE</a></b>
 
